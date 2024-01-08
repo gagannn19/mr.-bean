@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Car Game</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <img id="car-image" src="car.png" alt="car image">
+    <img id="car2-image" src="car2.png" alt="car image">
+
+    <div class="control-box">
+        <img class="control-image" id="up" src="up.png" alt="up button" onclick="let change = up()">
+        <img class="control-image" id="left" src="left.png" alt="left button" onclick="change = left()">
+        <img class="control-image" id="right" src="right.png" alt="right button" onclick="change = right()">
+        <img class="control-image" id="down" src="down.png" alt="down button" onclick="change = bottom()">
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(circle, rgb(192, 205, 214) 0%, rgb(91, 122, 172) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#car-image{ 
+  height: 150px;
+  position: absolute;
+}
+
+#car2-image{
+  height: 150px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.control-image{
+  position: absolute;
+  width: 80px;
+}
+
+#up{
+  display: block;
+  bottom: 130px;
+  right: 70px;
+  margin: 0;
+  cursor: pointer;
+}
+
+#left{
+  bottom: 70px;
+  right: 130px;
+  cursor: pointer;
+}
+
+#right{
+  margin: 0;
+  bottom: 70px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#down{
+  display: block;
+  bottom: 15px;
+  right: 70px;
+  cursor: pointer;
+}
+
